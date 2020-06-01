@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f04e34;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="btn_delete.svg_btn_delete.png" data-name="btn_delete.svg, btn_delete.png" class="cls-1" d="M623.246,435.991l3.377-3.378a1.278,1.278,0,0,0,0-1.8l-0.45-.45a1.277,1.277,0,0,0-1.8,0l-3.377,3.378-3.378-3.378a1.277,1.277,0,0,0-1.8,0l-0.451.45a1.278,1.278,0,0,0,0,1.8l3.377,3.377-3.377,3.378a1.278,1.278,0,0,0,0,1.8l0.451,0.45a1.277,1.277,0,0,0,1.8,0l3.378-3.377,3.377,3.377a1.279,1.279,0,0,0,1.8,0l0.45-.45a1.278,1.278,0,0,0,0-1.8Z" transform="translate(-615 -430)"/>
+</svg>

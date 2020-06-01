@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/roboto-regular-webfont.woff2" as="font">
+    <title>Table-Form</title>
+  </head>
+  <body>
+    <main class="page-main">
+      <h1 class="visually-hidden">User info</h1>
+      <div class="page-main__wrapper">
+        <section class="page-main__item">
+          <h2 class="visually-hidden">User form</h2>
+          <form class="page-main__form user-form" action="#" method="POST">
+            <div class="user-form__wrapper">
+              <p class="user-form__item">
+                <label class="user-form__label visually-hidden" for="name">Name</label>
+                <input class="user-form__input" type="text" name="name" id="name" placeholder="Name">
+              </p>
+              <p class="user-form__item">
+                <label class="user-form__label visually-hidden" for="surname">Surname</label>
+                <input class="user-form__input" type="text" name="surname" id="surname" placeholder="Surname">
+              </p>
+              <p class="user-form__item">
+                <label class="user-form__label visually-hidden" for="age">Age</label>
+                <input class="user-form__input" type="text" name="age" id="age" placeholder="Age">
+              </p>
+              <p class="user-form__item">
+                <label class="user-form__label visually-hidden" for="city">City</label>
+                <input class="user-form__input" type="text" name="city" id="city" placeholder="City">
+              </p>
+              <button class="user-form__button button" type="submit">add</button>
+            </div>
+          </form>
+        </section>
+        <section class="page-main__item">
+          <h2 class="visually-hidden">User table</h2>
+          <div class="page-main__table-wrapper">
+            <div class="page-main__table-controls table-controls">
+              <button class="table-controls__copy-btn" type="button">Copy table</button>
+              <a class="table-controls__delete-btn">
+                <svg width="12" height="12" viewBox="0 0 12 12">
+                  <path d="M623.246,435.991l3.377-3.378a1.278,1.278,0,0,0,0-1.8l-0.45-.45a1.277,1.277,0,0,0-1.8,0l-3.377,3.378-3.378-3.378a1.277,1.277,0,0,0-1.8,0l-0.451.45a1.278,1.278,0,0,0,0,1.8l3.377,3.377-3.377,3.378a1.278,1.278,0,0,0,0,1.8l0.451,0.45a1.277,1.277,0,0,0,1.8,0l3.378-3.377,3.377,3.377a1.279,1.279,0,0,0,1.8,0l0.45-.45a1.278,1.278,0,0,0,0-1.8Z" transform="translate(-615 -430)"/>
+                </svg>
+              </a>
+            </div>
+            <table class="page-main__table user-table">
+              <thead>
+                <tr>
+                  <th class="user-table__header">
+                    <p class="user-table__item">Name</p>
+                  </th>
+                  <th class="user-table__header">
+                    <p class="user-table__item">Surname</p>
+                  </th>
+                  <th class="user-table__header">
+                    <p class="user-table__item">Age</p>
+                  </th>
+                  <th class="user-table__header">
+                    <p class="user-table__item">City</p>
+                  </th>
+                  <th class="user-table__header">
+                    <p class="user-table__item controls"></p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Name" class="user-table__cell">
+                    Name
+                  </td>
+                  <td data-label="Surname" class="user-table__cell">
+                    Surname
+                  </td>
+                  <td data-label="Age" class="user-table__cell">
+                    Age
+                  </td>
+                  <td data-label="City" class="user-table__cell">
+                    City
+                  </td>
+                  <td data-label="" class="user-table__cell">
+                    <p class="user-table__cell-controls controls">
+                      <button class="controls__btn controls__btn--edit" type="button">Edit</button>
+                      <button class="controls__btn controls__btn--delete" type="button">Delete</button>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+                <tr>
+                  <td data-label="Name" class="user-table__cell"></td>
+                  <td data-label="Surname" class="user-table__cell"></td>
+                  <td data-label="Age" class="user-table__cell"></td>
+                  <td data-label="City" class="user-table__cell"></td>
+                  <td data-label="" class="user-table__cell"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

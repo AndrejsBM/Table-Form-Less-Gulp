@@ -1,0 +1,22 @@
+.controls__btn {
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+.controls__btn--edit {
+  padding-left: 42px;
+  color: #067ce1;
+}
+.controls__btn--delete {
+  padding-left: 42px;
+  color: #b02337;
+}
+@media (max-width: 550px) {
+  .controls__btn {
+    text-align: center;
+  }
+  .controls__btn--edit {
+    padding-left: 10px;
+  }
+}

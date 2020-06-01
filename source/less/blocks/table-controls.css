@@ -1,0 +1,17 @@
+.table-controls__copy-btn {
+  margin-right: 24px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 17px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #1493ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+.table-controls__delete-btn {
+  margin-right: 13px;
+  fill: #f04e34;
+  cursor: pointer;
+}

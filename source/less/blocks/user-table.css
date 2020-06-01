@@ -1,0 +1,76 @@
+.user-table__header {
+  padding: 0;
+  margin: 0;
+  min-width: 80px;
+  height: 30px;
+  background-color: #0a508c;
+  color: #a5b5cb;
+  border: 1px solid #0a508c;
+  text-align: left;
+}
+.user-table__header:first-child {
+  width: 95px;
+}
+.user-table__header:nth-child(2) {
+  width: 130px;
+}
+.user-table__header:nth-child(3) {
+  width: 95px;
+}
+.user-table__header:nth-child(4) {
+  width: 80px;
+}
+.user-table__item {
+  padding: 0;
+  margin: 0;
+  padding-left: 14px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.user-table__cell {
+  padding: 0;
+  margin: 0;
+  height: 31px;
+  border: 1px solid #c8ccd4;
+}
+.user-table__cell:last-child {
+  padding-left: 0;
+}
+.user-table__cell-controls {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 550px) {
+  .user-table__header {
+    display: none;
+  }
+  .user-table,
+  .user-table tbody,
+  .user-table tr,
+  .user-table td {
+    display: block;
+  }
+  .user-table tr {
+    margin-bottom: 15px;
+  }
+  .user-table td {
+    padding-left: 50%;
+    position: relative;
+  }
+  .user-table td:last-child {
+    text-align: center;
+  }
+  .user-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+  }
+}
